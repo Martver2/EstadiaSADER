@@ -1,0 +1,39 @@
+\documentclass[a4paper,11pt,twoside,onecolumn]{report}
+
+\setlength{\textwidth}{155mm}
+\setlength{\textheight}{195mm}
+\setlength{\oddsidemargin}{6mm}
+\setlength{\evensidemargin}{2mm}
+\setlength{\topmargin}{-5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Paquetes %%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}           %Paquete para el tipo de fuente a usar
+\usepackage{listings}                 %Paquete para agregar código fuente.
+\usepackage{graphicx}                 %Paquete para poner imágenes.
+\usepackage{wrapfig}                  %Paquete para envolver una figura con texto
+\usepackage{subcaption}               %Paquete para poner imágenes en una misma figura 
+\usepackage{adjustbox}            
+\usepackage[spanish, es-tabla]{babel} %Paquete para lenguaje español en texto y tabla
+\usepackage{amsmath,amsthm,amssymb}   %Paquete para ecuaciones matemáticas
+\usepackage{parskip, dsfont}     
+\usepackage{xcolor}                   %Paquete para dar color a las palabras
+\usepackage{biblatex}                 %Paquete para insertar bibliografía
+\usepackage{pdfpages}
+\usepackage{csquotes}
+\usepackage{geometry}                 %Paquete para poner encabezados
+\usepackage{fancyhdr}
+%%%%%%%%%%%%%%%%%%%%%%%%%% Ajustes de rutas %%%%%
+
+%%%%%%%%%%%%%%%%%% Ajuste de encabezado %%%%%%%%%
+\pagestyle{fancy}
+\lhead[]{Investigación}
+\rhead[]{}
+\chead[]{}
+
+\title{}
+
+\begin{document}
+    \tableofcontents
+    \newpage
+    \input{Content/Resumen.tex}
+\end{document}
