@@ -18,7 +18,7 @@
 \usepackage{parskip, dsfont}     
 \usepackage{xcolor}                   %Paquete para dar color a las palabras
 \usepackage{biblatex}                 %Paquete para insertar bibliografía
-\usepackage{pdfpages}
+\usepackage{pdfpages}                 %Paquete para insertar pdfs
 \usepackage{csquotes}
 \usepackage{geometry}                 %Paquete para poner encabezados
 \usepackage{fancyhdr}
@@ -33,6 +33,7 @@
 \title{}
 
 \begin{document}
+    \includepdf[pages=-]{./ArchivosPDF/PortadaEstadia.pdf} %Portada
     \tableofcontents
     \newpage
     \input{Content/Resumen.tex}
